@@ -1,0 +1,33 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "23:16:47 12/04/2025 "
+* "netlist" "test.sp "
+* "runtitle" ""
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-18       
+.nodeset
++ a = 0.000e+00       
++ b = 0.000e+00       
++ inv1_out = 1.384e-49       
++ inv2_out = 1.384e-49       
++ inv3_out = 1.384e-49       
++ inv4_out = 1.384e-49       
++ vdd! = 9.000e-01       
++ vss! = 0.000e+00       
++ xor_out = 1.416e-49       
++ xxor2.net3 = 1.416e-49       
++ xxor2.vdd = 1.128e-51       
++ xxor2.vss = 1.416e-49       
++ xinv1.vdd = 1.457e-49       
++ xinv1.vss = 1.274e-49       
++ xinv2.vdd = 1.457e-49       
++ xinv2.vss = 1.274e-49       
++ xinv3.vdd = 1.457e-49       
++ xinv3.vss = 1.274e-49       
++ xinv4.vdd = 1.457e-49       
++ xinv4.vss = 1.274e-49       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-24T03:57:59.244901",
+  "configuration": {
+    "netlist": "Neuron_submod.sp",
+    "num_inputs": 2,
+    "num_weights": 3,
+    "output_bits": 3,
+    "vdd": 0.9,
+    "vss": 0,
+    "fanout": "4 inverters per output",
+    "ternary_values": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "results": []
+}

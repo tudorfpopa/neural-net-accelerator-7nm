@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      weichbrodt
+HostName                       colossus.cae.wisc.edu
+ProcessIdentifier              1058887
+ProcessCreationTime_UTC        1759204690
+ProcessCreationTime_Readable   Mon Sep 29 22:58:10 2025 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /filespace/w/weichbrodt/ece555/ECE555/INV_2bit/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Sep 29 22:58:48 2025 CDT

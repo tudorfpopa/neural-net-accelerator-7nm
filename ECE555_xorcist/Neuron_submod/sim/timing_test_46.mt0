@@ -1,0 +1,10 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='X-2025.06 linux64' PARAM_COUNT=0
+.TITLE '** ternary neuron timing test 46'
+ t_input          t_out0           t_out1           t_out2          
+ tpd_0            tpd_1            tpd_2            v_z0_0_final    
+ v_z0_1_final     v_z0_2_final     power_avg        temper          
+ alter#          
+  1.001e-08        1.013e-08          failed           failed       
+  1.133e-10          failed           failed         4.805e-07      
+  4.811e-07        2.501e-07        6.185e-09        2.500e+01      
+1               

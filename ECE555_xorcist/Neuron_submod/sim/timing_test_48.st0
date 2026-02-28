@@ -1,0 +1,51 @@
+****** PrimeSim HSPICE -- X-2025.06 linux64 (May 22 2025 9830940) ******
+Input File: timing_test_48.sp
+lic:
+lic: FLEXlm: SDK_14.10
+lic: USER:   tpopa                HOSTNAME: tux-121
+lic: HOSTID: 7f0101               PID:      572129
+lic: Using FLEXlm license file:
+lic: 27180@synopsys.license.cae.wisc.edu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 23-jan-2027/2024.09
+lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27180@synopsys.license.cae.wisc.edu
+lic:
+
+ init: begin read circuit files, cpu clock= 9.84E-02
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/ad
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/behave
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/bjt
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/burr_brn
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/comlinear
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/dio
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/fet
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/lin_tech
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/pci
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/signet
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/ti
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/tline
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/xilinx
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+       option post =     2.00
+       option accurate
+       option numdgt =     8.00
+       option case = insensitive
+ init: end read circuit files, cpu clock= 1.30E-01 peak memory=     513 mb
+ init: begin check errors, cpu clock= 1.30E-01
+ init: end check errors, cpu clock= 1.67E-01 peak memory=     513 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.67E-01
+       establish matrix -- done, cpu clock= 1.68E-01 peak memory=     513 mb
+       re-order matrix -- done, cpu clock= 2.03E-01 peak memory=     523 mb
+ init: end setup matrix, cpu clock= 2.33E-01 peak memory=     523 mb
+ dcop: begin dcop, cpu clock= 2.35E-01
+       establish matrix -- done, cpu clock= 2.58E-01 peak memory=     523 mb
+       re-order matrix -- done, cpu clock= 3.08E-01 peak memory=     530 mb
+ dcop: end dcop, cpu clock= 3.61E-01 peak memory=     530 mb tot_iter=      20
+ output: timing_test_48.mt0
+ sweep: tran tran0    begin, stop_t=  5.00E-07 #sweeps=**** cpu clock= 3.80E-01
+  **error** simulation was stopped by signal SIGINT = 2
+
+ lic: Release hspice token(s)

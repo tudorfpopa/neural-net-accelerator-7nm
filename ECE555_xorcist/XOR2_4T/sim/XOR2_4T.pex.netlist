@@ -1,0 +1,27 @@
+* File: XOR2_4T.pex.netlist
+* Created: Thu Dec  4 22:58:08 2025
+* Program "Calibre xACT"
+* Version "v2024.4_39.16"
+* 
+.include "XOR2_4T.pex.netlist.pex"
+.subckt XOR2_4T  VSS VDD B A Y
+* 
+* Y	Y
+* A	A
+* B	B
+* VDD	VDD
+* VSS	VSS
+MM1 N_NET3_MM1_d N_B_MM1_g N_VSS_MM1_s VSS NMOS_RVT L=2e-08 W=5.4e-08 NFIN=2
+MM1@2 N_NET3_MM1@2_d N_B_MM1@2_g N_VSS_MM1@2_s VSS NMOS_RVT L=2e-08 W=5.4e-08
++ NFIN=2
+MM0 N_Y_MM0_d N_A_MM0_g N_NET3_MM0_s VSS NMOS_RVT L=2e-08 W=5.4e-08 NFIN=2
+MM0@2 N_Y_MM0@2_d N_A_MM0@2_g N_NET3_MM0@2_s VSS NMOS_RVT L=2e-08 W=5.4e-08
++ NFIN=2
+MM2 N_Y_MM2_d N_B_MM2_g N_A_MM2_s VDD PMOS_RVT L=2e-08 W=8.1e-08 NFIN=3
+MM3 N_Y_MM3_d N_A_MM3_g N_B_MM3_s VDD PMOS_RVT L=2e-08 W=8.1e-08 NFIN=3
+*
+.include "XOR2_4T.pex.netlist.XOR2_4T.pxi"
+*
+.ends
+*
+*

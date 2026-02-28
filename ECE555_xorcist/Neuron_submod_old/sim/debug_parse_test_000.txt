@@ -1,0 +1,61 @@
+Output file used: test_000.ic0
+File type: ic0
+File size: 748 bytes
+
+=== SEARCHING FOR ===
+z_0<2>, z_0<1>, z_0<0>
+
+=== FILE CONTENT (first 4000 chars) ===
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "01:09:17 11/26/2025 "
+* "netlist" "test_000.sp "
+* "runtitle" "** neuron verification test 000"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-12   
+.nodeset
++ vdd = 9.0000000e-01   
++ vss = 0.0000000e+00   
++ w_00<0> = 9.0000000e-01   
++ w_00<1> = 9.0000000e-01   
++ w_10<0> = 9.0000000e-01   
++ w_10<1> = 9.0000000e-01   
++ w_20<0> = 9.0000000e-01   
++ w_20<1> = 9.0000000e-01   
++ x_0<0> = 9.0000000e-01   
++ x_0<1> = 9.0000000e-01   
++ x_1<0> = 9.0000000e-01   
++ x_1<1> = 9.0000000e-01   
+***   END: Saved Operating Point ***                     
+
+
+=== FILE CONTENT (last 1000 chars) ===
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "01:09:17 11/26/2025 "
+* "netlist" "test_000.sp "
+* "runtitle" "** neuron verification test 000"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-12   
+.nodeset
++ vdd = 9.0000000e-01   
++ vss = 0.0000000e+00   
++ w_00<0> = 9.0000000e-01   
++ w_00<1> = 9.0000000e-01   
++ w_10<0> = 9.0000000e-01   
++ w_10<1> = 9.0000000e-01   
++ w_20<0> = 9.0000000e-01   
++ w_20<1> = 9.0000000e-01   
++ x_0<0> = 9.0000000e-01   
++ x_0<1> = 9.0000000e-01   
++ x_1<0> = 9.0000000e-01   
++ x_1<1> = 9.0000000e-01   
+***   END: Saved Operating Point ***                     

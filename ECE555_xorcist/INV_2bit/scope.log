@@ -1,0 +1,56 @@
+ScopeSigMgr:loadpffile /filespace/w/weichbrodt/ece555/ECE555/INV_2bit/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x344+756+460
+wm geometry .sigmgr._PF:1 232x344+471+424
+wm geometry .sigmgr._PF:1 232x344+388+392
+wm geometry .sigmgr._PF:1 232x344+341+361
+wm geometry .sigmgr._PF:1 232x344+288+310
+wm geometry .sigmgr._PF:1 232x344+256+287
+pf:read PF:1 v(in<0>) v(in<1>) v(out<0>) v(out<1>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+wm geometry .sigmgr._PF:1 232x344+487+287
+wm geometry .sigmgr._PF:1 232x344+561+278
+wm geometry .sigmgr._PF:1 232x344+595+269
+wm geometry .sigmgr._PF:1 232x344+631+262
+wm geometry .sigmgr._PF:1 232x344+661+259
+wm geometry .sigmgr._PF:1 232x344+672+258
+wm geometry .sigmgr._PF:1 232x344+673+258
+wm geometry .sigmgr._PF:1 232x344+675+257
+wm geometry .sigmgr._PF:1 232x344+706+256
+wm geometry .sigmgr._PF:1 232x344+763+251
+wm geometry .sigmgr._PF:1 232x344+808+248
+wm geometry .sigmgr._PF:1 232x344+820+248
+Mdi:Resize 728 526
+Mdi:Move 5 5
+wm geometry .sigmgr 376x206+771+194
+wm geometry .sigmgr 376x206+813+194
+wm geometry .sigmgr 376x206+817+194
+wm geometry .sigmgr 376x206+833+189
+wm geometry .sigmgr 376x206+892+182
+wm geometry .sigmgr 376x206+914+182
+wm geometry .sigmgr 376x206+915+181
+wm geometry .sigmgr 376x206+915+180
+wm geometry .sigmgr 376x206+915+179
+wm geometry .sigmgr 376x206+915+178
+wm geometry .sigmgr 376x206+1049+66
+wm geometry .sigmgr._PF:1 232x344+1025+343
+wm geometry .sigmgr._PF:1 232x344+1088+362
+wm geometry .sigmgr._PF:1 232x344+1117+371
+wm geometry .sigmgr._PF:1 232x344+1118+372
+wm geometry .sigmgr._PF:1 232x344+1118+374
+wm geometry .sigmgr._PF:1 232x344+1117+376
+wm geometry .sigmgr._PF:1 232x344+1116+377
+wm geometry .sigmgr._PF:1 232x344+1115+378
+Mdi:Resize 776 586
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+wm geometry . 1512x840+0+27
+Mdi:ArrangeIcons
+Mdi:Resize 852 642
+Mdi:Move 5 5
+ScopeSigMgr:Unload 0 {{(1) test-1.tr0}}
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel

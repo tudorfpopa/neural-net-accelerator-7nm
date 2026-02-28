@@ -1,0 +1,260 @@
+Mdi:FullSize
+ScopeSigMgr:loadpffile /groupspace/shared/e/ece555-xorcist/ece555/ECE555_xorcist/Neuron_submod/sim/timing_test_0.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x362+1920+1080
+wm geometry .sigmgr._PF:1 301x383+1920+1080
+wm geometry .sigmgr._PF:1 307x394+1920+1080
+wm geometry .sigmgr._PF:1 314x408+1920+1080
+wm geometry .sigmgr._PF:1 328x434+1920+1080
+wm geometry .sigmgr._PF:1 343x462+1920+1080
+wm geometry .sigmgr._PF:1 357x491+1920+1080
+wm geometry .sigmgr._PF:1 373x517+1920+1080
+wm geometry .sigmgr._PF:1 392x548+1920+1080
+wm geometry .sigmgr._PF:1 405x569+1920+1080
+wm geometry .sigmgr._PF:1 414x587+1920+1080
+wm geometry .sigmgr._PF:1 426x606+1920+1080
+wm geometry .sigmgr._PF:1 439x624+1920+1080
+wm geometry .sigmgr._PF:1 445x636+1920+1080
+wm geometry .sigmgr._PF:1 449x641+1920+1080
+wm geometry .sigmgr._PF:1 453x648+1920+1080
+wm geometry .sigmgr._PF:1 461x663+1920+1080
+wm geometry .sigmgr._PF:1 469x673+1920+1080
+wm geometry .sigmgr._PF:1 482x696+1920+1080
+wm geometry .sigmgr._PF:1 494x711+1920+1080
+wm geometry .sigmgr._PF:1 508x729+1920+1080
+wm geometry .sigmgr._PF:1 524x745+1920+1080
+wm geometry .sigmgr._PF:1 537x756+1920+1080
+wm geometry .sigmgr._PF:1 541x761+1920+1080
+wm geometry .sigmgr._PF:1 544x763+1920+1080
+wm geometry .sigmgr._PF:1 546x764+1920+1080
+wm geometry .sigmgr._PF:1 547x765+1920+1080
+wm geometry .sigmgr._PF:1 548x766+1920+1080
+pf:read PF:1 v(z_0<0>) v(z_0<1>) v(z_0<2>)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+wm geometry .sigmgr 467x240+445+206
+wm geometry .sigmgr 467x240+456+212
+wm geometry .sigmgr 467x240+481+223
+wm geometry .sigmgr 467x240+504+232
+wm geometry .sigmgr 467x240+526+238
+wm geometry .sigmgr 467x240+557+243
+wm geometry .sigmgr 467x240+609+251
+wm geometry .sigmgr 467x240+667+257
+wm geometry .sigmgr 467x240+727+263
+wm geometry .sigmgr 467x240+785+265
+wm geometry .sigmgr 467x240+835+265
+wm geometry .sigmgr 467x240+887+267
+wm geometry .sigmgr 467x240+915+267
+wm geometry .sigmgr 467x240+961+267
+wm geometry .sigmgr 467x240+1003+267
+wm geometry .sigmgr 467x240+1044+267
+wm geometry .sigmgr 467x240+1086+263
+wm geometry .sigmgr 467x240+1122+259
+wm geometry .sigmgr 467x240+1150+256
+wm geometry .sigmgr 467x240+1165+254
+wm geometry .sigmgr 467x240+1178+252
+wm geometry .sigmgr 467x240+1187+250
+wm geometry .sigmgr 467x240+1200+249
+wm geometry .sigmgr 467x240+1224+248
+wm geometry .sigmgr 467x240+1244+248
+wm geometry .sigmgr 467x240+1274+246
+wm geometry .sigmgr 467x240+1285+245
+wm geometry .sigmgr 467x240+1296+244
+wm geometry .sigmgr 467x240+1307+241
+wm geometry .sigmgr 467x240+1317+239
+wm geometry .sigmgr 467x240+1328+238
+wm geometry .sigmgr 467x240+1339+237
+wm geometry .sigmgr 467x240+1345+237
+wm geometry .sigmgr 467x240+1350+236
+wm geometry .sigmgr 467x240+1355+236
+wm geometry .sigmgr 467x240+1359+235
+wm geometry .sigmgr 467x240+1361+234
+wm geometry .sigmgr 467x240+1362+234
+wm geometry .sigmgr 467x240+1364+234
+wm geometry .sigmgr 467x240+1365+233
+wm geometry .sigmgr 467x240+1366+233
+wm geometry .sigmgr 467x240+1367+233
+wm geometry .sigmgr 467x240+1396+235
+wm geometry .sigmgr 467x240+1503+239
+wm geometry .sigmgr 467x240+1625+239
+wm geometry .sigmgr 467x240+1695+241
+wm geometry .sigmgr 467x240+1837+243
+wm geometry .sigmgr 467x240+1905+243
+wm geometry .sigmgr 467x240+1973+243
+wm geometry .sigmgr 467x240+2041+245
+wm geometry .sigmgr 467x240+2091+245
+wm geometry .sigmgr 467x240+2135+247
+wm geometry .sigmgr 467x240+2173+249
+wm geometry .sigmgr 467x240+2219+251
+wm geometry .sigmgr 467x240+2227+251
+wm geometry .sigmgr 467x240+2232+251
+wm geometry .sigmgr 467x240+2237+251
+Mdi:ArrangeIcons
+wm geometry . 900x785+26+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+63+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+104+87
+Mdi:ArrangeIcons
+wm geometry . 900x785+158+89
+Mdi:ArrangeIcons
+wm geometry . 900x785+208+89
+Mdi:ArrangeIcons
+wm geometry . 900x785+254+89
+Mdi:ArrangeIcons
+wm geometry . 900x785+276+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+296+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+311+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+325+93
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+332+93
+Mdi:ArrangeIcons
+wm geometry . 900x785+335+93
+Mdi:ArrangeIcons
+wm geometry . 900x785+337+93
+Mdi:ArrangeIcons
+wm geometry . 900x785+340+93
+Mdi:ArrangeIcons
+wm geometry . 900x785+347+93
+Mdi:ArrangeIcons
+wm geometry . 900x785+356+94
+Mdi:ArrangeIcons
+wm geometry . 900x785+364+94
+Mdi:ArrangeIcons
+wm geometry . 900x785+373+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+382+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+392+96
+Mdi:ArrangeIcons
+wm geometry . 900x785+398+96
+Mdi:ArrangeIcons
+wm geometry . 900x785+404+96
+Mdi:ArrangeIcons
+wm geometry . 900x785+412+97
+Mdi:ArrangeIcons
+wm geometry . 900x785+427+100
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+440+103
+Mdi:ArrangeIcons
+wm geometry . 900x785+450+104
+Mdi:ArrangeIcons
+wm geometry . 900x785+455+105
+Mdi:ArrangeIcons
+wm geometry . 900x785+458+106
+Mdi:ArrangeIcons
+wm geometry . 900x785+459+106
+Mdi:ArrangeIcons
+wm geometry . 900x785+462+107
+Mdi:ArrangeIcons
+wm geometry . 900x785+464+108
+Mdi:ArrangeIcons
+wm geometry . 900x785+467+110
+Mdi:ArrangeIcons
+wm geometry . 900x785+469+112
+Mdi:ArrangeIcons
+wm geometry . 900x785+471+112
+Mdi:ArrangeIcons
+wm geometry . 900x785+471+113
+Mdi:ArrangeIcons
+wm geometry . 900x785+472+113
+Mdi:ArrangeIcons
+wm geometry . 900x785+472+114
+ScopeSigMgr:loadpffile /groupspace/shared/e/ece555-xorcist/ece555/ECE555_xorcist/Neuron_submod/sim/test_000.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 290x362+1950+1110
+ScopeSigMgr:Unload 0 {{(1) timing_test_0.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+wm geometry .sigmgr._PF:2 290x362+1942+1070
+wm geometry .sigmgr._PF:2 290x362+1936+1048
+wm geometry .sigmgr._PF:2 290x362+1924+1000
+wm geometry .sigmgr._PF:2 290x362+1912+948
+wm geometry .sigmgr._PF:2 290x362+1904+906
+wm geometry .sigmgr._PF:2 290x362+1896+869
+wm geometry .sigmgr._PF:2 290x362+1894+855
+wm geometry .sigmgr._PF:2 290x362+1891+831
+wm geometry .sigmgr._PF:2 290x362+1890+811
+wm geometry .sigmgr._PF:2 290x362+1889+806
+wm geometry .sigmgr._PF:2 290x362+1889+803
+wm geometry .sigmgr._PF:2 290x362+1889+802
+wm geometry .sigmgr._PF:2 290x362+1889+801
+wm geometry .sigmgr._PF:2 297x381+1889+801
+wm geometry .sigmgr._PF:2 309x404+1889+801
+wm geometry .sigmgr._PF:2 316x418+1889+801
+wm geometry .sigmgr._PF:2 343x466+1889+801
+wm geometry .sigmgr._PF:2 371x516+1889+801
+wm geometry .sigmgr._PF:2 397x564+1889+801
+wm geometry .sigmgr._PF:2 425x612+1889+801
+wm geometry .sigmgr._PF:2 451x660+1889+801
+wm geometry .sigmgr._PF:2 473x700+1889+801
+wm geometry .sigmgr._PF:2 495x733+1889+801
+wm geometry .sigmgr._PF:2 511x756+1889+801
+wm geometry .sigmgr._PF:2 522x775+1889+801
+wm geometry .sigmgr._PF:2 530x787+1889+801
+wm geometry .sigmgr._PF:2 534x793+1889+801
+wm geometry .sigmgr._PF:2 538x799+1889+801
+wm geometry .sigmgr._PF:2 548x815+1889+801
+wm geometry .sigmgr._PF:2 554x826+1889+801
+wm geometry .sigmgr._PF:2 563x844+1889+801
+wm geometry .sigmgr._PF:2 574x862+1889+801
+wm geometry .sigmgr._PF:2 580x874+1889+801
+wm geometry .sigmgr._PF:2 588x887+1889+801
+wm geometry .sigmgr._PF:2 595x899+1889+801
+wm geometry .sigmgr._PF:2 596x901+1889+801
+wm geometry .sigmgr._PF:2 598x904+1889+801
+wm geometry .sigmgr._PF:2 599x907+1889+801
+wm geometry .sigmgr._PF:2 601x911+1889+801
+wm geometry .sigmgr._PF:2 602x913+1889+801
+pf:read PF:2 v(z_0<0>) v(z_0<1>) v(z_0<2>)
+# WF:2:1 WF:2:2 WF:2:3
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+ScopeSigMgr:Unload 0 {{(2) test_000.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+ScopeSigMgr:loadpffile /groupspace/shared/e/ece555-xorcist/ece555/ECE555_xorcist/Neuron_submod/sim/timing_test_0.tr0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 290x362+1920+1080
+wm geometry .sigmgr._PF:3 304x386+1920+1080
+wm geometry .sigmgr._PF:3 321x415+1920+1080
+wm geometry .sigmgr._PF:3 348x448+1920+1080
+wm geometry .sigmgr._PF:3 394x490+1920+1080
+wm geometry .sigmgr._PF:3 436x528+1920+1080
+wm geometry .sigmgr._PF:3 470x574+1920+1080
+wm geometry .sigmgr._PF:3 504x622+1920+1080
+wm geometry .sigmgr._PF:3 534x670+1920+1080
+wm geometry .sigmgr._PF:3 548x690+1920+1080
+wm geometry .sigmgr._PF:3 560x708+1920+1080
+wm geometry .sigmgr._PF:3 588x740+1920+1080
+wm geometry .sigmgr._PF:3 600x756+1920+1080
+wm geometry .sigmgr._PF:3 612x772+1920+1080
+wm geometry .sigmgr._PF:3 630x797+1920+1080
+wm geometry .sigmgr._PF:3 636x805+1920+1080
+wm geometry .sigmgr._PF:3 644x817+1920+1080
+wm geometry .sigmgr._PF:3 647x822+1920+1080
+wm geometry .sigmgr._PF:3 649x825+1920+1080
+wm geometry .sigmgr._PF:3 653x833+1920+1080
+wm geometry .sigmgr._PF:3 658x838+1920+1080
+wm geometry .sigmgr._PF:3 660x844+1920+1080
+wm geometry .sigmgr._PF:3 663x849+1920+1080
+wm geometry .sigmgr._PF:3 665x852+1920+1080
+wm geometry .sigmgr._PF:3 666x854+1920+1080
+wm geometry .sigmgr._PF:3 667x857+1920+1080
+wm geometry .sigmgr._PF:3 668x858+1920+1080
+pf:read PF:3 v(z_0<0>) v(z_0<1>) v(z_0<2>)
+# WF:3:1 WF:3:2 WF:3:3
+Graph addsignal {WF:3:1 WF:3:2 WF:3:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+ScopeSigMgr:Unload 0 {{(1) timing_test_0.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2

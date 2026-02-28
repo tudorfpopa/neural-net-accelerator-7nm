@@ -1,0 +1,263 @@
+proc Graph:LoadGraph0 {filename {graph {}}} {
+
+    global tk_status
+    global GrXY Graph sigs
+    set Graph(result) Passed
+
+    # Display feedback to user
+    set tk_status {Open Graph: Creating Graph}
+    # update idletasks
+
+    set graphpath [string trimright $filename graph.def]
+    if {$graph=={}} {
+        # Load needed plotfiles if absent
+
+        set pfwf [Graph:GetSigs3 $graphpath {{{{/filespace/w/weichbrodt/ece555/ECE555/AND2/test1.tr0 v(b)}} {} {} 0} {{{/filespace/w/weichbrodt/ece555/ECE555/AND2/test1.tr0 v(y)}} {} {} 0} {{{/filespace/w/weichbrodt/ece555/ECE555/AND2/test1.tr0 v(a)}} {} {} 0}}]
+
+        set pf [lindex $pfwf 0 ]
+
+        set wf [lindex $pfwf 1 ]
+
+        set missingWfIdx [lindex $pfwf 2 ]
+
+        set sigs(wfIdx,load) [lindex $pfwf 3 ]
+
+        # Create the new graph
+        set graph [GrXY:NewGraphConfig  {-type xy -font {-family {OF Helvetica} -size 10} -fg {white} -bg {black} -actfg {red} 	        -graphbg {black} -legend right -legendaxisdisplay 1 -grid yes 		-sighi legend -maxforfb 10000 		-minwidth 2 -minheight 2 -gridtype - -gridlinestyle {-  } 		-gridlinewidth 1 -gridlinecolor white -subgridlinestyle {-  }                 -subgridlinewidth 1 -subgridlinecolor white -griddashlength 1                 -siglinewidth 1 -rainbow 0 -ptreduct 10000 -sigcolors {green magenta cyan yellow #FF8000 #89ffbb #edbfff #0080FF #ffd016 #ff74bd} -prezoom {0.000000e+00 0.000000e+00 1.000000e+00 0.000000e+00} -signames {leaf} -anatracehi 2 -digitracehi 1 -digisnap 0 -busdisp hex} {1872} {819}]
+    } else {
+        # Load needed plotfiles if absent
+
+        set pfwf [Graph:GetSigs3 $graphpath {{{{/filespace/w/weichbrodt/ece555/ECE555/AND2/test1.tr0 v(b)}} {} {} 0} {{{/filespace/w/weichbrodt/ece555/ECE555/AND2/test1.tr0 v(y)}} {} {} 0} {{{/filespace/w/weichbrodt/ece555/ECE555/AND2/test1.tr0 v(a)}} {} {} 0}} 0]
+
+        set pf [lindex $pfwf 0 ]
+
+        set wf [lindex $pfwf 1 ]
+
+        set missingWfIdx [lindex $pfwf 2 ]
+
+        set sigs(wfIdx,load) [lindex $pfwf 3 ]
+
+        # Reconfigure graph
+        Graph:Select $graph
+        Graph itemselect all add
+        Graph delsignal selected
+        Graph:ClearItems
+        $graph config -type xy -font {-family {OF Helvetica} -size 10} -fg {white} -bg {black} -actfg {red} 	        -graphbg {black} -legend right -legendaxisdisplay 1 -grid yes 		-sighi legend -maxforfb 10000 		-minwidth 2 -minheight 2 -gridtype - -gridlinestyle {-  } 		-gridlinewidth 1 -gridlinecolor white -subgridlinestyle {-  }                 -subgridlinewidth 1 -subgridlinecolor white -griddashlength 1                 -siglinewidth 1 -rainbow 0 -ptreduct 10000 -sigcolors {green magenta cyan yellow #FF8000 #89ffbb #edbfff #0080FF #ffd016 #ff74bd} -prezoom {0.000000e+00 0.000000e+00 1.000000e+00 0.000000e+00} -signames {leaf} -anatracehi 2 -digitracehi 1 -digisnap 0 -busdisp hex
+    }
+    global $graph
+    set canvas [set $graph]
+    # Set graph colormap
+    set Graph($graph,cmap) 1
+
+    # Configure Graph Title
+    $graph itemconfig GraphTitle -text {Graph0}
+
+    # Restore Mem Label variables
+    # Add the signals to the graph with appropriate attributes
+    set configs {-region {0 0 0} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -rainbow {0 0 0} -rbcolors {{} {} {}} -fill {magenta cyan green} -linestyle {- - -} -width {1 1 1} -symbol {{} {} {}} -symwidth {10 10 10} -bar {{} {} {}} -barwidth {0 0 0} -baseline {0.0 0.0 0.0} -stipple {{} {} {}} -label {v(b) v(y) v(a)} -xaxis {0 0 0} -yaxis {0 0 0} -tracehi {2 2 2} -bus {{} {} {}} -segdisp {y y y} -monotonicdisp {0 0 0} -index {1 2 0}}
+
+    if {$missingWfIdx != ""} {
+        set configs [Graph:ResetSigConfigs1 $configs $missingWfIdx]
+    }
+
+    set allsigs [eval $graph addsignal {$wf} $configs]
+
+    set s_i 0
+    foreach s $allsigs {
+        set w_i [lindex $sigs(wfIdx,load) $s_i]
+        # use to update axis
+        set sigs($s,savedIdx,load) $w_i
+        # use to update measurement
+        set sigs($w_i,signal,load) $s
+        incr s_i
+    }
+
+    # Configure the axes
+    set numSavedSigs 3
+    set ax(0,xaxis,saved) AxisX(0)
+    set ax(0,yaxis,saved) AxisY(0,0)
+    set ax(1,xaxis,saved) AxisX(0)
+    set ax(1,yaxis,saved) AxisY(0,0)
+    set ax(2,xaxis,saved) AxisX(0)
+    set ax(2,yaxis,saved) AxisY(0,0)
+    set ax(AxisY(0,0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {} -subticks {0} -label {(V)} -digiview {} -lock {no} -slider {no} -range {-0.024620268493891 0.93675577640533} -unitscale {auto}}
+    set ax(AxisX(0),configs,saved) {-scale {linear} -gridvis {yes} -linticks {} -logticks {1 1} -subticks {0} -label {t(s)} -digiview {} -lock {no} -slider {no} -range {0.0 500p} -unitscale {auto}}
+
+    set ax(list) ""
+    set items [$canvas find all]
+    foreach item $items {
+        set type [$canvas type $item]
+        if {($type == "xaxis")||($type == "yaxis")||($type == "polaraxis")} {
+            if {$type == "polaraxis"} {
+                set axis [lindex [lindex [$canvas itemconfig $item -tags] 4] 0]
+            } else {
+                set axis [lindex [lindex [$canvas itemconfig $item -tags] 4] 1]
+            }
+            lappend ax(list) $axis
+        }
+    }
+
+    foreach axis $ax(list) {
+        set siglist [Graph:GetAllSigsOnAxis1 $axis $allsigs]
+
+        set sig [lindex $siglist 0]
+        set savedIdx $sigs($sig,savedIdx,load)
+        if {[string match AxisX* $axis]} {
+            set savedXAxis $ax($savedIdx,xaxis,saved)
+            set savedXAxisConfigs $ax($savedXAxis,configs,saved)
+            eval $graph axisconfig $axis $savedXAxisConfigs
+        } elseif {[string match AxisY* $axis]} {
+            set savedYAxis $ax($savedIdx,yaxis,saved)
+            set savedYAxisConfigs $ax($savedYAxis,configs,saved)
+            eval $graph axisconfig $axis $savedYAxisConfigs
+        } else {
+            set savedAxisConfigs $ax($axis,configs,saved)
+            eval $graph axisconfig $axis $savedAxisConfigs
+        }
+    }
+
+
+    # Restore Measurements
+    set sigs(Signal1,idx,saved) 0
+    set sigs(Signal2,idx,saved) 1
+    set sigs(Signal0,idx,saved) 2
+global Meas_${graph}
+    global Meas
+    set Meas(tool,xrXStart) start
+    set Meas(tool,xrXEnd) end
+    set Meas(tool,xrYStart) start
+    set Meas(tool,xrYEnd) end
+if {[lsearch $sigs(wfIdx,load) $sigs(Signal2,idx,saved)] != -1} {
+    global Meas
+    set Meas(tool,xrXStart) all
+    set Meas(tool,xrXEnd) 
+    set Meas(tool,xrYStart) all
+    set Meas(tool,xrYEnd) 
+set measCmd [Graph:ReplaceMeasElements1 {GrMeas:RiseFall $graph Signal2  {Falltime} {0.1 0.5 0.9} default default  xyrangeAll - 0 - activeGraph {{5}  {-}  {1}  {20}  {No}  {No}  {50}  {10}  {auto}  {Parameter}} 1 {} 4} {Falltime} $graph]
+if {$measCmd != ""} {
+set mindex [eval $measCmd]
+set fail [expr [isvalid integer $mindex] && {$mindex < 0}]
+if {! $fail} {
+  global Meas_${graph}_${mindex}
+  set Meas_${graph}_${mindex}(4,lblx) 72.0
+  set Meas_${graph}_${mindex}(4,lbly) 33.0
+  set Meas_${graph}_${mindex}(4,arrow) 0
+}
+}
+}
+if {[lsearch $sigs(wfIdx,load) $sigs(Signal2,idx,saved)] != -1} {
+    global Meas
+    set Meas(tool,xrXStart) all
+    set Meas(tool,xrXEnd) 
+    set Meas(tool,xrYStart) all
+    set Meas(tool,xrYEnd) 
+set measCmd [Graph:ReplaceMeasElements1 {GrMeas:RiseFall $graph Signal2  {Risetime} {0.1 0.5 0.9} default default  xyrangeAll - 0 - activeGraph {{5}  {-}  {1}  {20}  {No}  {No}  {50}  {10}  {auto}  {Parameter}} 1 {} 4} {Risetime} $graph]
+if {$measCmd != ""} {
+set mindex [eval $measCmd]
+set fail [expr [isvalid integer $mindex] && {$mindex < 0}]
+if {! $fail} {
+  global Meas_${graph}_${mindex}
+  set Meas_${graph}_${mindex}(4,lblx) 50.0
+  set Meas_${graph}_${mindex}(4,lbly) 32.0
+  set Meas_${graph}_${mindex}(4,arrow) 0
+}
+}
+}
+if {[lsearch $sigs(wfIdx,load) $sigs(Signal2,idx,saved)] != -1} {
+    global Meas
+    set Meas(tool,xrXStart) start
+    set Meas(tool,xrXEnd) end
+    set Meas(tool,xrYStart) start
+    set Meas(tool,xrYEnd) end
+set measCmd [Graph:ReplaceMeasElements1 {GrMeas:VerticalCursor $graph Signal2 $graph Signal2 1 319.95942528553p Signal xyrangeAll {{5}  {-}  {1}  {20}  {No}  {No}  {50}  {10}  {auto}  {Parameter}} 1} {Vertical Cursor} $graph]
+if {$measCmd != ""} {
+set mindex [eval $measCmd]
+set refmindex [lindex $mindex 1]
+set mindex [lindex $mindex 0]
+set fail [expr [isvalid integer $mindex] && {$mindex < 0}]
+if {! $fail} {
+  global Meas_${graph}_${mindex}
+  set Meas_${graph}_${mindex}(0,lblanchor)  ne
+  set Meas_${graph}_${mindex}(1,lblx) 92
+  set Meas_${graph}_${mindex}(1,lbly) 6
+}
+}
+}
+if {[lsearch $sigs(wfIdx,load) $sigs(Signal0,idx,saved)] != -1} {
+    global Meas
+    set Meas(tool,xrXStart) start
+    set Meas(tool,xrXEnd) end
+    set Meas(tool,xrYStart) start
+    set Meas(tool,xrYEnd) end
+set measCmd [Graph:ReplaceMeasElements1 {GrMeas:VerticalCursor $graph Signal0 $graph Signal0 1 312.50377920248p Signal xyrangeAll {{5}  {-}  {1}  {20}  {No}  {No}  {50}  {10}  {auto}  {Parameter}} 1} {Vertical Cursor} $graph]
+if {$measCmd != ""} {
+set mindex [eval $measCmd]
+set refmindex [lindex $mindex 1]
+set mindex [lindex $mindex 0]
+set fail [expr [isvalid integer $mindex] && {$mindex < 0}]
+if {! $fail} {
+  global Meas_${graph}_${mindex}
+  set Meas_${graph}_${mindex}(0,lblanchor)  nw
+  set Meas_${graph}_${mindex}(1,lblx) -109
+  set Meas_${graph}_${mindex}(1,lbly) -7
+}
+}
+}
+if {[lsearch $sigs(wfIdx,load) $sigs(Signal0,idx,saved)] != -1} {
+    global Meas
+    set Meas(tool,xrXStart) start
+    set Meas(tool,xrXEnd) end
+    set Meas(tool,xrYStart) start
+    set Meas(tool,xrYEnd) end
+set measCmd [Graph:ReplaceMeasElements1 {GrMeas:VerticalCursor $graph Signal0 $graph Signal0 1 412.50000131011p Signal xyrangeAll {{5}  {-}  {1}  {20}  {No}  {No}  {50}  {10}  {auto}  {Parameter}} 1} {Vertical Cursor} $graph]
+if {$measCmd != ""} {
+set mindex [eval $measCmd]
+set refmindex [lindex $mindex 1]
+set mindex [lindex $mindex 0]
+set fail [expr [isvalid integer $mindex] && {$mindex < 0}]
+if {! $fail} {
+  global Meas_${graph}_${mindex}
+  set Meas_${graph}_${mindex}(0,lblanchor)  nw
+  set Meas_${graph}_${mindex}(1,lblx) -108
+  set Meas_${graph}_${mindex}(1,lbly) -30
+}
+}
+}
+if {[lsearch $sigs(wfIdx,load) $sigs(Signal2,idx,saved)] != -1} {
+    global Meas
+    set Meas(tool,xrXStart) start
+    set Meas(tool,xrXEnd) end
+    set Meas(tool,xrYStart) start
+    set Meas(tool,xrYEnd) end
+set measCmd [Graph:ReplaceMeasElements1 {GrMeas:VerticalCursor $graph Signal2 $graph Signal2 1 419.00724491349p Signal xyrangeAll {{5}  {-}  {1}  {20}  {No}  {No}  {50}  {10}  {auto}  {Parameter}} 1} {Vertical Cursor} $graph]
+if {$measCmd != ""} {
+set mindex [eval $measCmd]
+set refmindex [lindex $mindex 1]
+set mindex [lindex $mindex 0]
+set fail [expr [isvalid integer $mindex] && {$mindex < 0}]
+if {! $fail} {
+  global Meas_${graph}_${mindex}
+  set Meas_${graph}_${mindex}(0,lblanchor)  ne
+  set Meas_${graph}_${mindex}(1,lblx) 108
+  set Meas_${graph}_${mindex}(1,lbly) -21
+}
+}
+}
+
+    # Restore Markers
+
+
+    # Restore Mem Label positions
+    $graph raise MemLbl
+
+    # Clear feedback
+    set tk_status {}
+    #update idletasks
+}
+
+# Call the new procedure
+if [catch {AimBusy "Graph:LoadGraph0 $Graph(filename) $graph" . watch} msg] {
+    AimMessage $msg error "Cant Read Graph" modal
+}
+# Delete the new procedure
+rename Graph:LoadGraph0 {}

@@ -1,0 +1,48 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "X-2025.06 linux64"
+"rundate" "00:25:55 11/26/2025 "
+"runtitle" "** neuron verification test 242                                   "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"opBegin" "analysisInst" ( 
+"Operating Point"
+"test_242.op0"
+"PSF"
+""
+()
+"Operating Point"
+)
+"timeSweep" "analysisInst" ( 
+"Transient Analysis"
+"test_242.tr0"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"opEnd" "analysisInst" ( 
+"Operating Point"
+"test_242.op0@1e-07"
+"PSF"
+""
+()
+"Operating Point"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"test_242.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

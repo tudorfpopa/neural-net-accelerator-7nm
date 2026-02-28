@@ -1,0 +1,4398 @@
+======================================================================
+Ternary Neuron Timing Analysis - Multiple Test Cases
+======================================================================
+
+
+======================================================================
+Generating Exhaustive Test Vectors
+======================================================================
+Total combinations: 3^5 = 243 tests
+======================================================================
+
+Running 243 test cases with 25ps rise/fall times...
+
+
+========================================
+
+Test 0: x0=-1, x1=-1, w0=-1, w1=-1, w2=-1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.102ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 1: x0=-1, x1=-1, w0=-1, w1=-1, w2=+0 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.091ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 2: x0=-1, x1=-1, w0=-1, w1=-1, w2=+1 → Expected=3
+Output: 3
+expected value:
+
+3
+
+actual value:
+
+3
+  Actual=3, tpd_max=0.093ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 3: x0=-1, x1=-1, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 4: x0=-1, x1=-1, w0=-1, w1=+0, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.065ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 5: x0=-1, x1=-1, w0=-1, w1=+0, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.075ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 6: x0=-1, x1=-1, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 7: x0=-1, x1=-1, w0=-1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 8: x0=-1, x1=-1, w0=-1, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 9: x0=-1, x1=-1, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 10: x0=-1, x1=-1, w0=+0, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.059ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 11: x0=-1, x1=-1, w0=+0, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.069ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 12: x0=-1, x1=-1, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 13: x0=-1, x1=-1, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 14: x0=-1, x1=-1, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 15: x0=-1, x1=-1, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 16: x0=-1, x1=-1, w0=+0, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.059ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 17: x0=-1, x1=-1, w0=+0, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.069ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 18: x0=-1, x1=-1, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 19: x0=-1, x1=-1, w0=+1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 20: x0=-1, x1=-1, w0=+1, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 21: x0=-1, x1=-1, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 22: x0=-1, x1=-1, w0=+1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 23: x0=-1, x1=-1, w0=+1, w1=+0, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.076ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 24: x0=-1, x1=-1, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 25: x0=-1, x1=-1, w0=+1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.102ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 26: x0=-1, x1=-1, w0=+1, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.112ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 27: x0=-1, x1=+0, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 28: x0=-1, x1=+0, w0=-1, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 29: x0=-1, x1=+0, w0=-1, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 30: x0=-1, x1=+0, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 31: x0=-1, x1=+0, w0=-1, w1=+0, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.065ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 32: x0=-1, x1=+0, w0=-1, w1=+0, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.075ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 33: x0=-1, x1=+0, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 34: x0=-1, x1=+0, w0=-1, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.069ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 35: x0=-1, x1=+0, w0=-1, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.103ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 36: x0=-1, x1=+0, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.070ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 37: x0=-1, x1=+0, w0=+0, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.058ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 38: x0=-1, x1=+0, w0=+0, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.079ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 39: x0=-1, x1=+0, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 40: x0=-1, x1=+0, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 41: x0=-1, x1=+0, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 42: x0=-1, x1=+0, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 43: x0=-1, x1=+0, w0=+0, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 44: x0=-1, x1=+0, w0=+0, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.070ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 45: x0=-1, x1=+0, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.112ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 46: x0=-1, x1=+0, w0=+1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 47: x0=-1, x1=+0, w0=+1, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.110ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 48: x0=-1, x1=+0, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 49: x0=-1, x1=+0, w0=+1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 50: x0=-1, x1=+0, w0=+1, w1=+0, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.076ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 51: x0=-1, x1=+0, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.065ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 52: x0=-1, x1=+0, w0=+1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 53: x0=-1, x1=+0, w0=+1, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 54: x0=-1, x1=+1, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 55: x0=-1, x1=+1, w0=-1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 56: x0=-1, x1=+1, w0=-1, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 57: x0=-1, x1=+1, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 58: x0=-1, x1=+1, w0=-1, w1=+0, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.065ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 59: x0=-1, x1=+1, w0=-1, w1=+0, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.075ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 60: x0=-1, x1=+1, w0=-1, w1=+1, w2=-1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.102ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 61: x0=-1, x1=+1, w0=-1, w1=+1, w2=+0 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.091ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 62: x0=-1, x1=+1, w0=-1, w1=+1, w2=+1 → Expected=3
+Output: 3
+expected value:
+
+3
+
+actual value:
+
+3
+  Actual=3, tpd_max=0.093ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 63: x0=-1, x1=+1, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 64: x0=-1, x1=+1, w0=+0, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.059ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 65: x0=-1, x1=+1, w0=+0, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 66: x0=-1, x1=+1, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 67: x0=-1, x1=+1, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 68: x0=-1, x1=+1, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 69: x0=-1, x1=+1, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 70: x0=-1, x1=+1, w0=+0, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.059ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 71: x0=-1, x1=+1, w0=+0, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 72: x0=-1, x1=+1, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 73: x0=-1, x1=+1, w0=+1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 74: x0=-1, x1=+1, w0=+1, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.112ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 75: x0=-1, x1=+1, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 76: x0=-1, x1=+1, w0=+1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 77: x0=-1, x1=+1, w0=+1, w1=+0, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.076ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 78: x0=-1, x1=+1, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 79: x0=-1, x1=+1, w0=+1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 80: x0=-1, x1=+1, w0=+1, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 81: x0=+0, x1=-1, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 82: x0=+0, x1=-1, w0=-1, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 83: x0=+0, x1=-1, w0=-1, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 84: x0=+0, x1=-1, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.078ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 85: x0=+0, x1=-1, w0=-1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 86: x0=+0, x1=-1, w0=-1, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.087ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 87: x0=+0, x1=-1, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 88: x0=+0, x1=-1, w0=-1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 89: x0=+0, x1=-1, w0=-1, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.108ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 90: x0=+0, x1=-1, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 91: x0=+0, x1=-1, w0=+0, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.056ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 92: x0=+0, x1=-1, w0=+0, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 93: x0=+0, x1=-1, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 94: x0=+0, x1=-1, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 95: x0=+0, x1=-1, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 96: x0=+0, x1=-1, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 97: x0=+0, x1=-1, w0=+0, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.056ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 98: x0=+0, x1=-1, w0=+0, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 99: x0=+0, x1=-1, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 100: x0=+0, x1=-1, w0=+1, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 101: x0=+0, x1=-1, w0=+1, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 102: x0=+0, x1=-1, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 103: x0=+0, x1=-1, w0=+1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 104: x0=+0, x1=-1, w0=+1, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.082ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 105: x0=+0, x1=-1, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 106: x0=+0, x1=-1, w0=+1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 107: x0=+0, x1=-1, w0=+1, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 108: x0=+0, x1=+0, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 109: x0=+0, x1=+0, w0=-1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.098ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 110: x0=+0, x1=+0, w0=-1, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.098ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 111: x0=+0, x1=+0, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.078ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 112: x0=+0, x1=+0, w0=-1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 113: x0=+0, x1=+0, w0=-1, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.087ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 114: x0=+0, x1=+0, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 115: x0=+0, x1=+0, w0=-1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 116: x0=+0, x1=+0, w0=-1, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 117: x0=+0, x1=+0, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 118: x0=+0, x1=+0, w0=+0, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.058ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 119: x0=+0, x1=+0, w0=+0, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.078ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 120: x0=+0, x1=+0, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 121: x0=+0, x1=+0, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 122: x0=+0, x1=+0, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 123: x0=+0, x1=+0, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 124: x0=+0, x1=+0, w0=+0, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 125: x0=+0, x1=+0, w0=+0, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 126: x0=+0, x1=+0, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 127: x0=+0, x1=+0, w0=+1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 128: x0=+0, x1=+0, w0=+1, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 129: x0=+0, x1=+0, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 130: x0=+0, x1=+0, w0=+1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 131: x0=+0, x1=+0, w0=+1, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.082ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 132: x0=+0, x1=+0, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.089ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 133: x0=+0, x1=+0, w0=+1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 134: x0=+0, x1=+0, w0=+1, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.093ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 135: x0=+0, x1=+1, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 136: x0=+0, x1=+1, w0=-1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 137: x0=+0, x1=+1, w0=-1, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.108ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 138: x0=+0, x1=+1, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.078ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 139: x0=+0, x1=+1, w0=-1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 140: x0=+0, x1=+1, w0=-1, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.087ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 141: x0=+0, x1=+1, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 142: x0=+0, x1=+1, w0=-1, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 143: x0=+0, x1=+1, w0=-1, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 144: x0=+0, x1=+1, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 145: x0=+0, x1=+1, w0=+0, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.056ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 146: x0=+0, x1=+1, w0=+0, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 147: x0=+0, x1=+1, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 148: x0=+0, x1=+1, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 149: x0=+0, x1=+1, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 150: x0=+0, x1=+1, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 151: x0=+0, x1=+1, w0=+0, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.056ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 152: x0=+0, x1=+1, w0=+0, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 153: x0=+0, x1=+1, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 154: x0=+0, x1=+1, w0=+1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 155: x0=+0, x1=+1, w0=+1, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 156: x0=+0, x1=+1, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 157: x0=+0, x1=+1, w0=+1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 158: x0=+0, x1=+1, w0=+1, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.082ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 159: x0=+0, x1=+1, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 160: x0=+0, x1=+1, w0=+1, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 161: x0=+0, x1=+1, w0=+1, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 162: x0=+1, x1=-1, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 163: x0=+1, x1=-1, w0=-1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 164: x0=+1, x1=-1, w0=-1, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 165: x0=+1, x1=-1, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 166: x0=+1, x1=-1, w0=-1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 167: x0=+1, x1=-1, w0=-1, w1=+0, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.076ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 168: x0=+1, x1=-1, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 169: x0=+1, x1=-1, w0=-1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 170: x0=+1, x1=-1, w0=-1, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.112ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 171: x0=+1, x1=-1, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 172: x0=+1, x1=-1, w0=+0, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.059ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 173: x0=+1, x1=-1, w0=+0, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 174: x0=+1, x1=-1, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 175: x0=+1, x1=-1, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 176: x0=+1, x1=-1, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 177: x0=+1, x1=-1, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 178: x0=+1, x1=-1, w0=+0, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.059ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 179: x0=+1, x1=-1, w0=+0, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 180: x0=+1, x1=-1, w0=+1, w1=-1, w2=-1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.102ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 181: x0=+1, x1=-1, w0=+1, w1=-1, w2=+0 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.091ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 182: x0=+1, x1=-1, w0=+1, w1=-1, w2=+1 → Expected=3
+Output: 3
+expected value:
+
+3
+
+actual value:
+
+3
+  Actual=3, tpd_max=0.093ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 183: x0=+1, x1=-1, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 184: x0=+1, x1=-1, w0=+1, w1=+0, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.065ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 185: x0=+1, x1=-1, w0=+1, w1=+0, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.075ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 186: x0=+1, x1=-1, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 187: x0=+1, x1=-1, w0=+1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 188: x0=+1, x1=-1, w0=+1, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 189: x0=+1, x1=+0, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 190: x0=+1, x1=+0, w0=-1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.113ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 191: x0=+1, x1=+0, w0=-1, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.110ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 192: x0=+1, x1=+0, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 193: x0=+1, x1=+0, w0=-1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 194: x0=+1, x1=+0, w0=-1, w1=+0, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.076ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 195: x0=+1, x1=+0, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.065ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 196: x0=+1, x1=+0, w0=-1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 197: x0=+1, x1=+0, w0=-1, w1=+1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 198: x0=+1, x1=+0, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 199: x0=+1, x1=+0, w0=+0, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.058ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 200: x0=+1, x1=+0, w0=+0, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.079ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 201: x0=+1, x1=+0, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 202: x0=+1, x1=+0, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 203: x0=+1, x1=+0, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 204: x0=+1, x1=+0, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 205: x0=+1, x1=+0, w0=+0, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 206: x0=+1, x1=+0, w0=+0, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.070ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 207: x0=+1, x1=+0, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 208: x0=+1, x1=+0, w0=+1, w1=-1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 209: x0=+1, x1=+0, w0=+1, w1=-1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 210: x0=+1, x1=+0, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 211: x0=+1, x1=+0, w0=+1, w1=+0, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.065ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 212: x0=+1, x1=+0, w0=+1, w1=+0, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.075ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 213: x0=+1, x1=+0, w0=+1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 214: x0=+1, x1=+0, w0=+1, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 215: x0=+1, x1=+0, w0=+1, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.103ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 216: x0=+1, x1=+1, w0=-1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 217: x0=+1, x1=+1, w0=-1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 218: x0=+1, x1=+1, w0=-1, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.112ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 219: x0=+1, x1=+1, w0=-1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 220: x0=+1, x1=+1, w0=-1, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.066ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 221: x0=+1, x1=+1, w0=-1, w1=+0, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.076ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 222: x0=+1, x1=+1, w0=-1, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 223: x0=+1, x1=+1, w0=-1, w1=+1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 224: x0=+1, x1=+1, w0=-1, w1=+1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 225: x0=+1, x1=+1, w0=+0, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 226: x0=+1, x1=+1, w0=+0, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.059ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 227: x0=+1, x1=+1, w0=+0, w1=-1, w2=+1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 228: x0=+1, x1=+1, w0=+0, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 229: x0=+1, x1=+1, w0=+0, w1=+0, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 230: x0=+1, x1=+1, w0=+0, w1=+0, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 231: x0=+1, x1=+1, w0=+0, w1=+1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 232: x0=+1, x1=+1, w0=+0, w1=+1, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.059ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 233: x0=+1, x1=+1, w0=+0, w1=+1, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.069ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 234: x0=+1, x1=+1, w0=+1, w1=-1, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 235: x0=+1, x1=+1, w0=+1, w1=-1, w2=+0 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 236: x0=+1, x1=+1, w0=+1, w1=-1, w2=+1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 237: x0=+1, x1=+1, w0=+1, w1=+0, w2=-1 → Expected=0
+Output: 0
+expected value:
+
+0
+
+actual value:
+
+0
+  Actual=0, tpd_max=0.000ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 238: x0=+1, x1=+1, w0=+1, w1=+0, w2=+0 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.065ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 239: x0=+1, x1=+1, w0=+1, w1=+0, w2=+1 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.074ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 240: x0=+1, x1=+1, w0=+1, w1=+1, w2=-1 → Expected=1
+Output: 1
+expected value:
+
+1
+
+actual value:
+
+1
+  Actual=1, tpd_max=0.101ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 241: x0=+1, x1=+1, w0=+1, w1=+1, w2=+0 → Expected=2
+Output: 2
+expected value:
+
+2
+
+actual value:
+
+2
+  Actual=2, tpd_max=0.091ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+
+========================================
+
+Test 242: x0=+1, x1=+1, w0=+1, w1=+1, w2=+1 → Expected=3
+Output: 3
+expected value:
+
+3
+
+actual value:
+
+3
+  Actual=3, tpd_max=0.093ns, global tpd_max=0.113ns, ✅ PASS
+
+========================================
+
+
+======================================================================
+Summary Table for Report
+======================================================================
+
+ID   Inputs [x0,x1,w0,w1,w2]        Exp  Act  Pass   tpd(ns)    Notes
+----------------------------------------------------------------------
+0    [-1,-1,-1,-1,-1]               1    N/A  Pass   0.102      Auto Generated
+1    [-1,-1,-1,-1,+0]               2    N/A  Pass   0.091      Auto Generated
+2    [-1,-1,-1,-1,+1]               3    N/A  Pass   0.093      Auto Generated
+3    [-1,-1,-1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+4    [-1,-1,-1,+0,+0]               1    N/A  Pass   0.065      Auto Generated
+5    [-1,-1,-1,+0,+1]               2    N/A  Pass   0.075      Auto Generated
+6    [-1,-1,-1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+7    [-1,-1,-1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+8    [-1,-1,-1,+1,+1]               1    N/A  Pass   N/A        Auto Generated
+9    [-1,-1,+0,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+10   [-1,-1,+0,-1,+0]               1    N/A  Pass   0.059      Auto Generated
+11   [-1,-1,+0,-1,+1]               2    N/A  Pass   0.069      Auto Generated
+12   [-1,-1,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+13   [-1,-1,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+14   [-1,-1,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+15   [-1,-1,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+16   [-1,-1,+0,+1,+0]               0    N/A  Pass   0.059      Auto Generated
+17   [-1,-1,+0,+1,+1]               0    N/A  Pass   0.069      Auto Generated
+18   [-1,-1,+1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+19   [-1,-1,+1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+20   [-1,-1,+1,-1,+1]               1    N/A  Pass   N/A        Auto Generated
+21   [-1,-1,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+22   [-1,-1,+1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+23   [-1,-1,+1,+0,+1]               0    N/A  Pass   0.076      Auto Generated
+24   [-1,-1,+1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+25   [-1,-1,+1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+26   [-1,-1,+1,+1,+1]               0    N/A  Pass   0.112      Auto Generated
+27   [-1,+0,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+28   [-1,+0,-1,-1,+0]               1    N/A  Pass   N/A        Auto Generated
+29   [-1,+0,-1,-1,+1]               2    N/A  Pass   N/A        Auto Generated
+30   [-1,+0,-1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+31   [-1,+0,-1,+0,+0]               1    N/A  Pass   0.065      Auto Generated
+32   [-1,+0,-1,+0,+1]               2    N/A  Pass   0.075      Auto Generated
+33   [-1,+0,-1,+1,-1]               0    N/A  Pass   0.066      Auto Generated
+34   [-1,+0,-1,+1,+0]               1    N/A  Pass   0.069      Auto Generated
+35   [-1,+0,-1,+1,+1]               2    N/A  Pass   0.103      Auto Generated
+36   [-1,+0,+0,-1,-1]               0    N/A  Pass   0.070      Auto Generated
+37   [-1,+0,+0,-1,+0]               0    N/A  Pass   0.058      Auto Generated
+38   [-1,+0,+0,-1,+1]               1    N/A  Pass   0.079      Auto Generated
+39   [-1,+0,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+40   [-1,+0,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+41   [-1,+0,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+42   [-1,+0,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+43   [-1,+0,+0,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+44   [-1,+0,+0,+1,+1]               1    N/A  Pass   0.070      Auto Generated
+45   [-1,+0,+1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+46   [-1,+0,+1,-1,+0]               0    N/A  Pass   0.113      Auto Generated
+47   [-1,+0,+1,-1,+1]               0    N/A  Pass   0.110      Auto Generated
+48   [-1,+0,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+49   [-1,+0,+1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+50   [-1,+0,+1,+0,+1]               0    N/A  Pass   0.076      Auto Generated
+51   [-1,+0,+1,+1,-1]               0    N/A  Pass   0.065      Auto Generated
+52   [-1,+0,+1,+1,+0]               0    N/A  Pass   0.070      Auto Generated
+53   [-1,+0,+1,+1,+1]               0    N/A  Pass   N/A        Auto Generated
+54   [-1,+1,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+55   [-1,+1,-1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+56   [-1,+1,-1,-1,+1]               1    N/A  Pass   N/A        Auto Generated
+57   [-1,+1,-1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+58   [-1,+1,-1,+0,+0]               1    N/A  Pass   0.065      Auto Generated
+59   [-1,+1,-1,+0,+1]               2    N/A  Pass   0.075      Auto Generated
+60   [-1,+1,-1,+1,-1]               1    N/A  Pass   0.102      Auto Generated
+61   [-1,+1,-1,+1,+0]               2    N/A  Pass   0.091      Auto Generated
+62   [-1,+1,-1,+1,+1]               3    N/A  Pass   0.093      Auto Generated
+63   [-1,+1,+0,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+64   [-1,+1,+0,-1,+0]               0    N/A  Pass   0.059      Auto Generated
+65   [-1,+1,+0,-1,+1]               0    N/A  Pass   0.069      Auto Generated
+66   [-1,+1,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+67   [-1,+1,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+68   [-1,+1,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+69   [-1,+1,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+70   [-1,+1,+0,+1,+0]               1    N/A  Pass   0.059      Auto Generated
+71   [-1,+1,+0,+1,+1]               2    N/A  Pass   0.069      Auto Generated
+72   [-1,+1,+1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+73   [-1,+1,+1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+74   [-1,+1,+1,-1,+1]               0    N/A  Pass   0.112      Auto Generated
+75   [-1,+1,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+76   [-1,+1,+1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+77   [-1,+1,+1,+0,+1]               0    N/A  Pass   0.076      Auto Generated
+78   [-1,+1,+1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+79   [-1,+1,+1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+80   [-1,+1,+1,+1,+1]               1    N/A  Pass   N/A        Auto Generated
+81   [+0,-1,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+82   [+0,-1,-1,-1,+0]               1    N/A  Pass   N/A        Auto Generated
+83   [+0,-1,-1,-1,+1]               2    N/A  Pass   N/A        Auto Generated
+84   [+0,-1,-1,+0,-1]               0    N/A  Pass   0.078      Auto Generated
+85   [+0,-1,-1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+86   [+0,-1,-1,+0,+1]               1    N/A  Pass   0.087      Auto Generated
+87   [+0,-1,-1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+88   [+0,-1,-1,+1,+0]               0    N/A  Pass   0.113      Auto Generated
+89   [+0,-1,-1,+1,+1]               0    N/A  Pass   0.108      Auto Generated
+90   [+0,-1,+0,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+91   [+0,-1,+0,-1,+0]               1    N/A  Pass   0.056      Auto Generated
+92   [+0,-1,+0,-1,+1]               2    N/A  Pass   0.066      Auto Generated
+93   [+0,-1,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+94   [+0,-1,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+95   [+0,-1,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+96   [+0,-1,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+97   [+0,-1,+0,+1,+0]               0    N/A  Pass   0.056      Auto Generated
+98   [+0,-1,+0,+1,+1]               0    N/A  Pass   0.066      Auto Generated
+99   [+0,-1,+1,-1,-1]               0    N/A  Pass   0.066      Auto Generated
+100  [+0,-1,+1,-1,+0]               1    N/A  Pass   0.070      Auto Generated
+101  [+0,-1,+1,-1,+1]               2    N/A  Pass   0.113      Auto Generated
+102  [+0,-1,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+103  [+0,-1,+1,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+104  [+0,-1,+1,+0,+1]               1    N/A  Pass   0.082      Auto Generated
+105  [+0,-1,+1,+1,-1]               0    N/A  Pass   0.066      Auto Generated
+106  [+0,-1,+1,+1,+0]               0    N/A  Pass   0.070      Auto Generated
+107  [+0,-1,+1,+1,+1]               0    N/A  Pass   N/A        Auto Generated
+108  [+0,+0,-1,-1,-1]               0    N/A  Pass   0.113      Auto Generated
+109  [+0,+0,-1,-1,+0]               0    N/A  Pass   0.098      Auto Generated
+110  [+0,+0,-1,-1,+1]               1    N/A  Pass   0.098      Auto Generated
+111  [+0,+0,-1,+0,-1]               0    N/A  Pass   0.078      Auto Generated
+112  [+0,+0,-1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+113  [+0,+0,-1,+0,+1]               1    N/A  Pass   0.087      Auto Generated
+114  [+0,+0,-1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+115  [+0,+0,-1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+116  [+0,+0,-1,+1,+1]               1    N/A  Pass   N/A        Auto Generated
+117  [+0,+0,+0,-1,-1]               0    N/A  Pass   0.069      Auto Generated
+118  [+0,+0,+0,-1,+0]               0    N/A  Pass   0.058      Auto Generated
+119  [+0,+0,+0,-1,+1]               1    N/A  Pass   0.078      Auto Generated
+120  [+0,+0,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+121  [+0,+0,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+122  [+0,+0,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+123  [+0,+0,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+124  [+0,+0,+0,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+125  [+0,+0,+0,+1,+1]               1    N/A  Pass   0.069      Auto Generated
+126  [+0,+0,+1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+127  [+0,+0,+1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+128  [+0,+0,+1,-1,+1]               1    N/A  Pass   N/A        Auto Generated
+129  [+0,+0,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+130  [+0,+0,+1,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+131  [+0,+0,+1,+0,+1]               1    N/A  Pass   0.082      Auto Generated
+132  [+0,+0,+1,+1,-1]               0    N/A  Pass   0.089      Auto Generated
+133  [+0,+0,+1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+134  [+0,+0,+1,+1,+1]               1    N/A  Pass   0.093      Auto Generated
+135  [+0,+1,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+136  [+0,+1,-1,-1,+0]               0    N/A  Pass   0.113      Auto Generated
+137  [+0,+1,-1,-1,+1]               0    N/A  Pass   0.108      Auto Generated
+138  [+0,+1,-1,+0,-1]               0    N/A  Pass   0.078      Auto Generated
+139  [+0,+1,-1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+140  [+0,+1,-1,+0,+1]               1    N/A  Pass   0.087      Auto Generated
+141  [+0,+1,-1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+142  [+0,+1,-1,+1,+0]               1    N/A  Pass   N/A        Auto Generated
+143  [+0,+1,-1,+1,+1]               2    N/A  Pass   N/A        Auto Generated
+144  [+0,+1,+0,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+145  [+0,+1,+0,-1,+0]               0    N/A  Pass   0.056      Auto Generated
+146  [+0,+1,+0,-1,+1]               0    N/A  Pass   0.066      Auto Generated
+147  [+0,+1,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+148  [+0,+1,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+149  [+0,+1,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+150  [+0,+1,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+151  [+0,+1,+0,+1,+0]               1    N/A  Pass   0.056      Auto Generated
+152  [+0,+1,+0,+1,+1]               2    N/A  Pass   0.066      Auto Generated
+153  [+0,+1,+1,-1,-1]               0    N/A  Pass   0.066      Auto Generated
+154  [+0,+1,+1,-1,+0]               0    N/A  Pass   0.070      Auto Generated
+155  [+0,+1,+1,-1,+1]               0    N/A  Pass   N/A        Auto Generated
+156  [+0,+1,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+157  [+0,+1,+1,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+158  [+0,+1,+1,+0,+1]               1    N/A  Pass   0.082      Auto Generated
+159  [+0,+1,+1,+1,-1]               0    N/A  Pass   0.066      Auto Generated
+160  [+0,+1,+1,+1,+0]               1    N/A  Pass   0.070      Auto Generated
+161  [+0,+1,+1,+1,+1]               2    N/A  Pass   0.113      Auto Generated
+162  [+1,-1,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+163  [+1,-1,-1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+164  [+1,-1,-1,-1,+1]               1    N/A  Pass   N/A        Auto Generated
+165  [+1,-1,-1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+166  [+1,-1,-1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+167  [+1,-1,-1,+0,+1]               0    N/A  Pass   0.076      Auto Generated
+168  [+1,-1,-1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+169  [+1,-1,-1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+170  [+1,-1,-1,+1,+1]               0    N/A  Pass   0.112      Auto Generated
+171  [+1,-1,+0,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+172  [+1,-1,+0,-1,+0]               1    N/A  Pass   0.059      Auto Generated
+173  [+1,-1,+0,-1,+1]               2    N/A  Pass   0.069      Auto Generated
+174  [+1,-1,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+175  [+1,-1,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+176  [+1,-1,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+177  [+1,-1,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+178  [+1,-1,+0,+1,+0]               0    N/A  Pass   0.059      Auto Generated
+179  [+1,-1,+0,+1,+1]               0    N/A  Pass   0.069      Auto Generated
+180  [+1,-1,+1,-1,-1]               1    N/A  Pass   0.102      Auto Generated
+181  [+1,-1,+1,-1,+0]               2    N/A  Pass   0.091      Auto Generated
+182  [+1,-1,+1,-1,+1]               3    N/A  Pass   0.093      Auto Generated
+183  [+1,-1,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+184  [+1,-1,+1,+0,+0]               1    N/A  Pass   0.065      Auto Generated
+185  [+1,-1,+1,+0,+1]               2    N/A  Pass   0.075      Auto Generated
+186  [+1,-1,+1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+187  [+1,-1,+1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+188  [+1,-1,+1,+1,+1]               1    N/A  Pass   N/A        Auto Generated
+189  [+1,+0,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+190  [+1,+0,-1,-1,+0]               0    N/A  Pass   0.113      Auto Generated
+191  [+1,+0,-1,-1,+1]               0    N/A  Pass   0.110      Auto Generated
+192  [+1,+0,-1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+193  [+1,+0,-1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+194  [+1,+0,-1,+0,+1]               0    N/A  Pass   0.076      Auto Generated
+195  [+1,+0,-1,+1,-1]               0    N/A  Pass   0.065      Auto Generated
+196  [+1,+0,-1,+1,+0]               0    N/A  Pass   0.070      Auto Generated
+197  [+1,+0,-1,+1,+1]               0    N/A  Pass   N/A        Auto Generated
+198  [+1,+0,+0,-1,-1]               0    N/A  Pass   0.070      Auto Generated
+199  [+1,+0,+0,-1,+0]               0    N/A  Pass   0.058      Auto Generated
+200  [+1,+0,+0,-1,+1]               1    N/A  Pass   0.079      Auto Generated
+201  [+1,+0,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+202  [+1,+0,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+203  [+1,+0,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+204  [+1,+0,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+205  [+1,+0,+0,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+206  [+1,+0,+0,+1,+1]               1    N/A  Pass   0.070      Auto Generated
+207  [+1,+0,+1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+208  [+1,+0,+1,-1,+0]               1    N/A  Pass   N/A        Auto Generated
+209  [+1,+0,+1,-1,+1]               2    N/A  Pass   N/A        Auto Generated
+210  [+1,+0,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+211  [+1,+0,+1,+0,+0]               1    N/A  Pass   0.065      Auto Generated
+212  [+1,+0,+1,+0,+1]               2    N/A  Pass   0.075      Auto Generated
+213  [+1,+0,+1,+1,-1]               0    N/A  Pass   0.066      Auto Generated
+214  [+1,+0,+1,+1,+0]               1    N/A  Pass   0.069      Auto Generated
+215  [+1,+0,+1,+1,+1]               2    N/A  Pass   0.103      Auto Generated
+216  [+1,+1,-1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+217  [+1,+1,-1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+218  [+1,+1,-1,-1,+1]               0    N/A  Pass   0.112      Auto Generated
+219  [+1,+1,-1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+220  [+1,+1,-1,+0,+0]               0    N/A  Pass   0.066      Auto Generated
+221  [+1,+1,-1,+0,+1]               0    N/A  Pass   0.076      Auto Generated
+222  [+1,+1,-1,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+223  [+1,+1,-1,+1,+0]               0    N/A  Pass   N/A        Auto Generated
+224  [+1,+1,-1,+1,+1]               1    N/A  Pass   N/A        Auto Generated
+225  [+1,+1,+0,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+226  [+1,+1,+0,-1,+0]               0    N/A  Pass   0.059      Auto Generated
+227  [+1,+1,+0,-1,+1]               0    N/A  Pass   0.069      Auto Generated
+228  [+1,+1,+0,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+229  [+1,+1,+0,+0,+0]               0    N/A  Pass   N/A        Auto Generated
+230  [+1,+1,+0,+0,+1]               1    N/A  Pass   N/A        Auto Generated
+231  [+1,+1,+0,+1,-1]               0    N/A  Pass   N/A        Auto Generated
+232  [+1,+1,+0,+1,+0]               1    N/A  Pass   0.059      Auto Generated
+233  [+1,+1,+0,+1,+1]               2    N/A  Pass   0.069      Auto Generated
+234  [+1,+1,+1,-1,-1]               0    N/A  Pass   N/A        Auto Generated
+235  [+1,+1,+1,-1,+0]               0    N/A  Pass   N/A        Auto Generated
+236  [+1,+1,+1,-1,+1]               1    N/A  Pass   N/A        Auto Generated
+237  [+1,+1,+1,+0,-1]               0    N/A  Pass   N/A        Auto Generated
+238  [+1,+1,+1,+0,+0]               1    N/A  Pass   0.065      Auto Generated
+239  [+1,+1,+1,+0,+1]               2    N/A  Pass   0.074      Auto Generated
+240  [+1,+1,+1,+1,-1]               1    N/A  Pass   0.101      Auto Generated
+241  [+1,+1,+1,+1,+0]               2    N/A  Pass   0.091      Auto Generated
+242  [+1,+1,+1,+1,+1]               3    N/A  Pass   0.093      Auto Generated
+
+======================================================================
+
+Delete intermediate files? (y/n): y
+✅ Cleanup complete

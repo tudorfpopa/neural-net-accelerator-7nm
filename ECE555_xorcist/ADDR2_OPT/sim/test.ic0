@@ -1,0 +1,34 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "17:34:14 12/04/2025 "
+* "netlist" "test.sp "
+* "runtitle" "2-bit adder testbench"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000f       
+.nodeset
++ a<0> =   0.            
++ a<1> =   0.            
++ b<0> =   0.            
++ b<1> =   0.            
++ cout = 229.6324n       
++ s<0> =   1.0244n       
++ s<1> =   1.3650n       
++ vdd = 900.0000m       
++ vss =   0.            
++ xdut.net18 = 233.1579n       
++ xdut.net21 = 899.9998m       
++ xdut.net28 = 274.8063u       
++ xdut.net7 =   1.0251n       
++ xdut.xi7.net3 = 137.0452u       
++ xdut.xi4.net3 = 512.5015p       
++ xdut.xi3.net3 = 678.4932p       
++ xdut.xi2.net3 = 508.1453p       
++ xdut.xi6.net3 = 120.3153n       
++ xdut.xi6.net5 = 899.9997m       
++ xdut.xi5.net3 =  31.6690m       
++ xdut.xi5.net5 = 899.9999m       
+***   END: Saved Operating Point ***                     

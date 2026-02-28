@@ -1,0 +1,4382 @@
+{
+  "timestamp": "2025-12-06T21:24:05.524051",
+  "neuron_netlist": "Neuron_submod.sp",
+  "vdd": 0.9,
+  "total_tests": 243,
+  "results": [
+    {
+      "test_id": 0,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 1,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 2,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 3,
+      "expected_output": 3,
+      "hspice_bits": [
+        0,
+        1,
+        1
+      ],
+      "hspice_value": 3,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 3,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 4,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 5,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 6,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 7,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 8,
+      "x0": -1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 9,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 10,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 11,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 12,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 13,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 14,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 15,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 16,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 17,
+      "x0": -1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 18,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 19,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 20,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 21,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 22,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 23,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 24,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -3,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 25,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 26,
+      "x0": -1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 27,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 28,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 29,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 30,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 31,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 32,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 33,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 34,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 35,
+      "x0": -1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 36,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 37,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 38,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 39,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 40,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 41,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 42,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 43,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 44,
+      "x0": -1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 45,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 46,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 47,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 48,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 49,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 50,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 51,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 52,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 53,
+      "x0": -1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 54,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 55,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 56,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 57,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 58,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 59,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 60,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 61,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 62,
+      "x0": -1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 3,
+      "expected_output": 3,
+      "hspice_bits": [
+        0,
+        1,
+        1
+      ],
+      "hspice_value": 3,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 63,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 64,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 65,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 66,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 67,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 68,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 69,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 70,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 71,
+      "x0": -1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 72,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -3,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 73,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 74,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 75,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 76,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 77,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 78,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 79,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 80,
+      "x0": -1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 81,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 82,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 83,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 84,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 85,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 86,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 87,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 88,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 89,
+      "x0": 0,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 90,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 91,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 92,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 93,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 94,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 95,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 96,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 97,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 98,
+      "x0": 0,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 99,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 100,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 101,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 102,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 103,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 104,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 105,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 106,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 107,
+      "x0": 0,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 108,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 109,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 110,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 111,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 112,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 113,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 114,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 115,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 116,
+      "x0": 0,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 117,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 118,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 119,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 120,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 121,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 122,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 123,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 124,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 125,
+      "x0": 0,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 126,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 127,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 128,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 129,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 130,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 131,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 132,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 133,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 134,
+      "x0": 0,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 135,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 136,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 137,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 138,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 139,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 140,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 141,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 142,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 143,
+      "x0": 0,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 144,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 145,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 146,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 147,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 148,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 149,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 150,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 151,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 152,
+      "x0": 0,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 153,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 154,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 155,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 156,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 157,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 158,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 159,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 160,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 161,
+      "x0": 0,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 162,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 163,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 164,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 165,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 166,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 167,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 168,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -3,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 169,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 170,
+      "x0": 1,
+      "x1": -1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 171,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 172,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 173,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 174,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 175,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 176,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 177,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 178,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 179,
+      "x0": 1,
+      "x1": -1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 180,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 181,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 182,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 3,
+      "expected_output": 3,
+      "hspice_bits": [
+        0,
+        1,
+        1
+      ],
+      "hspice_value": 3,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 183,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 184,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 185,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 186,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 187,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 188,
+      "x0": 1,
+      "x1": -1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 189,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 190,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 191,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 192,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 193,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 194,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 195,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 196,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 197,
+      "x0": 1,
+      "x1": 0,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 198,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 199,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 200,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 201,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 202,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 203,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 204,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 205,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 206,
+      "x0": 1,
+      "x1": 0,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 207,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 208,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 209,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 210,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 211,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 212,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 213,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 214,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 215,
+      "x0": 1,
+      "x1": 0,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 216,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -3,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 217,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 218,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 219,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 220,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 221,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 222,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 223,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 224,
+      "x0": 1,
+      "x1": 1,
+      "w00": -1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 225,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -2,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 226,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 227,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 228,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 229,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 230,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 231,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 232,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 233,
+      "x0": 1,
+      "x1": 1,
+      "w00": 0,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 234,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": -1,
+      "weighted_sum": -1,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 235,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 0,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 236,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": -1,
+      "w20": 1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 237,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": -1,
+      "weighted_sum": 0,
+      "expected_output": 0,
+      "hspice_bits": [
+        0,
+        0,
+        0
+      ],
+      "hspice_value": 0,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 238,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 0,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 239,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 0,
+      "w20": 1,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 240,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": -1,
+      "weighted_sum": 1,
+      "expected_output": 1,
+      "hspice_bits": [
+        0,
+        0,
+        1
+      ],
+      "hspice_value": 1,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 241,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 0,
+      "weighted_sum": 2,
+      "expected_output": 2,
+      "hspice_bits": [
+        0,
+        1,
+        0
+      ],
+      "hspice_value": 2,
+      "passed": true,
+      "power": null
+    },
+    {
+      "test_id": 242,
+      "x0": 1,
+      "x1": 1,
+      "w00": 1,
+      "w10": 1,
+      "w20": 1,
+      "weighted_sum": 3,
+      "expected_output": 3,
+      "hspice_bits": [
+        0,
+        1,
+        1
+      ],
+      "hspice_value": 3,
+      "passed": true,
+      "power": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+788+619
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /groupspace/shared/e/ece555-xorcist/ece555/ECE555_xorcist/XOR2_test/sim/test1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(a) v(b) v(y)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+wm geometry .sigmgr 467x236+1242+732
+wm geometry .sigmgr 467x236+1273+736
+wm geometry .sigmgr 467x236+1331+738
+wm geometry .sigmgr 467x236+1417+738
+wm geometry .sigmgr 467x236+1513+738
+wm geometry .sigmgr 467x236+1659+738
+wm geometry .sigmgr 467x236+1737+738
+wm geometry .sigmgr 467x236+1799+736
+wm geometry .sigmgr 467x236+1849+736
+wm geometry .sigmgr 467x236+1875+736
+wm geometry .sigmgr 467x236+1881+737
+wm geometry .sigmgr 467x236+1882+737
+Mdi:ArrangeIcons
+wm geometry . 900x785+800+589
+Mdi:ArrangeIcons
+wm geometry . 900x785+832+523
+Mdi:ArrangeIcons
+wm geometry . 900x785+854+471
+Mdi:ArrangeIcons
+wm geometry . 900x785+880+413
+Mdi:ArrangeIcons
+wm geometry . 900x785+910+343
+Mdi:ArrangeIcons
+wm geometry . 900x785+942+277
+Mdi:ArrangeIcons
+wm geometry . 900x785+966+229
+Mdi:ArrangeIcons
+wm geometry . 900x785+978+205
+Mdi:ArrangeIcons
+wm geometry . 900x785+990+183
+Mdi:ArrangeIcons
+wm geometry . 900x785+998+163
+Mdi:ArrangeIcons
+wm geometry . 900x785+1011+131
+Mdi:ArrangeIcons
+wm geometry . 900x785+1017+90
+Mdi:ArrangeIcons
+wm geometry . 900x785+1022+66
+Mdi:ArrangeIcons
+wm geometry . 900x785+1026+59
+Mdi:ArrangeIcons
+wm geometry . 900x785+1027+55
+Mdi:ArrangeIcons
+wm geometry . 900x785+1028+51
+Mdi:ArrangeIcons
+wm geometry . 900x785+1031+41
+Mdi:ArrangeIcons
+wm geometry . 900x785+1035+27
+Mdi:ArrangeIcons
+wm geometry . 900x785+1038+27
+Mdi:ArrangeIcons
+wm geometry . 3840x2076+0+27
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Resize 1466 1104
+Mdi:Move 5 5
+Mdi:Resize 1667 1261
+Mdi:Move 5 5

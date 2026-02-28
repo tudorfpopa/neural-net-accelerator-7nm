@@ -1,0 +1,46 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+342+79
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /groupspace/shared/e/ece555-xorcist/ece555/ECE555_xorcist/XOR2_4T/sim/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(a) v(b) v(xor_out)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+wm geometry .sigmgr 467x236+765+198
+wm geometry .sigmgr 467x236+766+198
+wm geometry .sigmgr 467x236+771+199
+wm geometry .sigmgr 467x236+789+202
+wm geometry .sigmgr 467x236+827+207
+wm geometry .sigmgr 467x236+893+213
+wm geometry .sigmgr 467x236+1031+223
+wm geometry .sigmgr 467x236+1141+225
+wm geometry .sigmgr 467x236+1251+225
+wm geometry .sigmgr 467x236+1353+225
+wm geometry .sigmgr 467x236+1445+221
+wm geometry .sigmgr 467x236+1507+221
+wm geometry .sigmgr 467x236+1544+217
+wm geometry .sigmgr 467x236+1558+215
+wm geometry .sigmgr 467x236+1570+215
+wm geometry .sigmgr 467x236+1589+215
+wm geometry .sigmgr 467x236+1604+215
+wm geometry .sigmgr 467x236+1618+213
+wm geometry .sigmgr 467x236+1628+212
+wm geometry .sigmgr 467x236+1629+212
+Mdi:FullSize
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{0.96163801169863 -0.084841246245293} {98.2907p 169.103p}}
+ScopeSigMgr:Unload 0 {{(1) test.tr0}}
+wm geometry .sigmgr 467x236+1639+220

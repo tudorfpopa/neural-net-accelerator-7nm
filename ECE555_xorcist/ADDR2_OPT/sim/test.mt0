@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='X-2025.06 linux64' PARAM_COUNT=0
+.TITLE '2-bit adder testbench'
+ tpd_s0           tpd_s1           tpd_s2           avg_power       
+ temper           alter#          
+ -2.020e-08       -6.916e-12          failed         7.922e-08      
+   25.0000        1               

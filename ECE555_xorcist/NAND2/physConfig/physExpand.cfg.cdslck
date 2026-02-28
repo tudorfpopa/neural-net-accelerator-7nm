@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ychoy
+HostName                       linux-2617.cae.wisc.edu
+ProcessIdentifier              3178506
+ProcessCreationTime_UTC        1764899438
+ProcessCreationTime_Readable   Thu Dec  4 19:50:38 2025 CST
+AppIdentifier                  /cae/apps/data/cadence-2025/installs/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /groupspace/shared/e/ece555-xorcist/ece555/ECE555_xorcist/NAND2/physConfig/physExpand.cfg
+TimeEditLocked                 Thu Dec  4 20:21:37 2025 CST
