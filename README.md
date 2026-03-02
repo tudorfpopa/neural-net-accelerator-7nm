@@ -4,6 +4,7 @@ Neural net hardware accelerator for human activity recognition based on the ASAP
 ## Introduction
 This repository contains the CAD and test files for a Neural Net inference hardware accelerator. Each Neuron features a MAC and ReLU unit. 
 The model weights are taken as inputs for easy tuning. It allows for energy-efficient human activity recognition from strain sensor data.
+![Full neuron Layout](Layout_Screenshot/Full_Layout.png)
 
 ## Design Toolchain
 The repository features schematics and custom layouts done in **Cadence Virtuoso** and the **ASAP7nm** PDK. It was designed from the standard cell up to the full neuron in a bottom-up approach, making it easily modular.
